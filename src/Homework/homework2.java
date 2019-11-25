@@ -26,6 +26,8 @@ public class homework2 {
 
 			input += ch[t];
 		}
+		//System.out.println(new String(ch));   String클래스에 배열 넣으면 문자열 출력;
+		
 		System.out.println(input);
 		System.out.println();
 
