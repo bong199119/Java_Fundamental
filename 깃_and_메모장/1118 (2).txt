@@ -478,7 +478,10 @@ length -> 배열의 길이
 오버라이딩 -> 부모의 기능을 재정의 할때 쓰는것 (상속관계 필수!)
 
 
-https://github.com/syh1011/Java_Fundamental
+
+
+강사님 깃허브
+-> https://github.com/syh1011/Java_Fundamental
 
 
 
@@ -557,25 +560,71 @@ int a = i1 + i2; // 오토 언박싱됨
 
 
 
+Integer i = new Integer(10)  -> 10불변임 바뀌지않는다.
 
+String도 마찬가지
+
+
+String s1 = new String("a")
+String s2 = new String("a")
+
+***  s1 == s2  -> false
+***  s1.equals(s2) -> true (오버라이딩 되어있음!  + 해시코드도 오버라이딩 되어있음)
+
+
+
+
+
+문자열 연결은  ->  스트링버퍼가 있음
+
+
+
+
+이미터블 객체  -> wrapper, string 2개
+
+call by reference로 안바뀜
+
+
+
+
+import 전부시키기 ->  ctrl + shift + o
+
+
+
+컬랙션은 크기잴때 사이즈로 잰다.
+ex) -> set.size()
+
+
+
+
+oop적으로 만들기 이번주 숙제
+
+달력 매개변수 3개 -> 년월일
+매개변수 2개 -> 월일
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@@@ HTML, CSS 공부하기
 
 @@@ 문자열 함수 다외우기!!!!! 완벽하게!!!! 매우중요!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @@@ calendar 코딩한거 다시해보도 반복하고 이해하기!!! 매우중요****
 
