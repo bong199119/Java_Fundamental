@@ -50,6 +50,34 @@ public class MemberManagementDemo {
 	
 	public void update(){
 		
+		
+		String id = console("아이디>");
+		String name = console("이름>");
+		
+		int count=0;
+		Member m = new Member(id, name);
+		
+		System.out.println(m.getId());
+		for(int i = 0 ; i < list.size(); i++){
+			if(id.equals(list.get(i).getId())){
+				count++;
+				break;
+			}
+			
+		}
+		if(count==0){
+			m.setId(id);
+		}
+		count=0;
+		list.add(m);
+		
+		System.out.printf("총 회원은 %d명 입니다.%n",list.size());
+
+		print();
+		String index = console("번호를 선택 하세요>");
+
+		run(index);
+		
 	}
 	
 	// 1. 삭제할 아이디를 입력받는다.

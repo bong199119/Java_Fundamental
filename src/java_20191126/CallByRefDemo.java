@@ -2,9 +2,10 @@ package java_20191126;
 
 public class CallByRefDemo {
 	
-	public static void change(int i, int[] j){
+	public static void change(int i, int[] j,String str){
 		i = 20;
 		j[3] = 400;
+		str +="123";
 	}	
 	
 	/* 위는 아래와 같음int i = a라고 표현하면 i는 바뀌어도 a는 바뀌지 않음!!!
@@ -16,17 +17,17 @@ public class CallByRefDemo {
 	public static void main(String[] args) {
 		int a = 10;
 		int b [] = {1,2,3,4};
-		
+		String str = "abc";
 		System.out.println(a);
 		System.out.println(b[3]);
 		
 		// a => call by value, b => call by reference
-		change(a,b); 
-		CallByRefDemo.change(a, b); // 같은 패키지 안에서는 클래스명 생략가능
+		change(a,b,str); 
+		CallByRefDemo.change(a, b, str); // 같은 패키지 안에서는 클래스명 생략가능
 		
 		System.out.println(a); // call by value 메서드 호출후 변화 없음
 		System.out.println(b[3]); // call by reference 메서드 호출후 변화 있음
-		
+		System.out.println(str);
 		
 		// 아래 두개의 선언은 다르다!
 		int c[] ; // 현재 33번째줄인데 여기서 메모리 할당이 안됨
