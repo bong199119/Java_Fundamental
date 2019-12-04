@@ -1,61 +1,34 @@
 package java_20191203;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 public class practice {
- public static void main(String[] args) {
-	FileReader fr = null;
-	FileWriter fw = null;
-	BufferedReader br = null;
-	BufferedWriter bw = null;
-	
-	
-	try {
-		fr = new FileReader("C:\\dev\\io\\2019\\12\\test.txt");
-		br = new BufferedReader(fr);
-	
+	public static void main(String[] args) throws IOException {
+		FileWriter fw = null;
+		BufferedWriter bw = null;
+		PrintWriter pw = null;
 		
-		fw = new FileWriter("C:\\dev\\io\\2019\\12\\test1.txt");
+		String url = "https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20171101&end=20191203";
+		Document doc = null;
+		
+		fw = new FileWriter("C:\\dev\\io\\12\\2");
 		bw = new BufferedWriter(fw);
+		pw = new PrintWriter(bw,true);
 		
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		doc = Jsoup.connect(url).get();
+		
+		
+		
+		
+		
+		
+		
+		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
- }
- 
 }

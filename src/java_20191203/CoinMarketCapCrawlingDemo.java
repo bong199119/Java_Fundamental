@@ -33,7 +33,7 @@ public class CoinMarketCapCrawlingDemo {
 
 		
 		try {
-			doc = Jsoup.connect(url).get();
+			doc = Jsoup.connect(url).get(); // url 가져오기
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
