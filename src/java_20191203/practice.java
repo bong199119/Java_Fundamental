@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 
 public class practice {
 	public static void main(String[] args) throws IOException {
@@ -23,7 +24,23 @@ public class practice {
 		
 		doc = Jsoup.connect(url).get();
 		
+		Elements elements = doc.select("cmc-table__table-wrapper-outer");
 		
+		for(int i = 0 ; i<elements.size(); i++){
+			
+			/*String date = elements.get(i).child(0).text();
+			String open = elements.get(i).child(0).text();
+			String date = elements.get(i).child(0).text();
+			String date = elements.get(i).child(0).text();
+			String date = elements.get(i).child(0).text();
+			String date = elements.get(i).child(0).text();
+			String date = elements.get(i).child(0).text();*/
+			
+			
+			
+			
+			
+		}
 		
 		
 		
