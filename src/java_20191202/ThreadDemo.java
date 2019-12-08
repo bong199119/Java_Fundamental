@@ -5,7 +5,7 @@ public class ThreadDemo extends Thread {
 		super(threadName);
 	}
 	public void run(){
-		for(int i = 0 ; i<1000000; i++){
+		for(int i = 0 ; i<1000; i++){
 			String threadName = Thread.currentThread().getName();
 			System.out.printf("%s : %d%n", threadName, i);
 		}

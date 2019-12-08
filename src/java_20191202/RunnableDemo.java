@@ -4,7 +4,7 @@ public class RunnableDemo implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		for(int i = 0 ; i<100000; i++){
+		for(int i = 0 ; i<1000; i++){
 			String threadName = Thread.currentThread().getName();
 			System.out.printf("%s : %d%n", threadName, i);
 		}
