@@ -29,10 +29,11 @@ public class JdbcDemo {
 					"acorn12");//password
 					System.out.println("데이터 베이스 연결 성공");
 					
+					
+					
+					//3. SQL문을 전송할 수 있는 PreparedStatement 객체를 생성한다.
 					StringBuffer sql = new StringBuffer();
 					sql.append("INSERT INTO dept(deptno, dname, loc) VALUES(?,?,?);");
-					//3. SQL문을 전송할 수 있는 PreparedStatement 객체를 생성한다.
-					
 					pstmt = con.prepareStatement(sql.toString());
 					
 					//4. 바인딩 변수->(?)를 설정한다.

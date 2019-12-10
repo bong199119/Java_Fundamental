@@ -23,21 +23,18 @@ public class DeptDemo {
 		 */
 
 		ArrayList<DeptDto> list = d.select();
-
+		
 		for (DeptDto dto : list) {
 			System.out.printf("%d, %s, %s, %n", dto.getNo(), dto.getName(), dto.getLoc());
 		}
-		
-		
+
 		DeptDto dto = d.select(10);
-		if(dto == null){
+		if (dto == null) {
 			System.out.println("데이터가 존재하지 않습니다.");
-			
-		}else{
+
+		} else {
 			System.out.printf("%d, %s, %s, %n", dto.getNo(), dto.getName(), dto.getLoc());
 		}
-		
-		
 
 	}
 }

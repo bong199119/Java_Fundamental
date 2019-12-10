@@ -34,9 +34,6 @@ public class JdbcUpdateDemo {
 					sql.append("UPDATE dept ");
 					sql.append("SET dname = ?, loc = ? ");
 					sql.append("WHERE deptno = ?");
-					
-					
-					
 					pstmt = con.prepareStatement(sql.toString());
 					
 					//4. 바인딩 변수->(?)를 설정한다.
