@@ -17,7 +17,7 @@ public class RunnableDemo implements Runnable{
 		t1.start();
 		
 		RunnableDemo r2 = new RunnableDemo();
-		Thread t2 = new Thread(r1,"second Thread");
+		Thread t2 = new Thread(r2,"second Thread");
 		t2.start();
 		
 	}
