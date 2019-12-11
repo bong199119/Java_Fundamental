@@ -896,14 +896,33 @@ EMP DTO만들기!
 
 
 
+singleton 외우기!!!!
+
+deptdao에서 생성자를 private로 놓으면 deptdemo에서 new가 안됨! 
+같은 클래스 내에서는 생성가능
+
+
+deptdao d = deptdao.getInstance();
+deptdao d1 = deptdao.getInstance(); -> 이런식으로 만들어야함
+
+
+
+
+셀렉트 한거 0번째부터 5개(길이)를 가져옴
+SELECT empno, ename, job, mgr, hiredate, sal, comm, deptno
+FROM emp
+ORDER BY hiredate DESC
+LIMIT 0,5
+
+
+
+
 
 
 
 
 
 @@@ parse, value of 등등 함수 찾아서 정리
-
-@@@ HTML, CSS 공부하기
 
 @@@ 컬랙션 공부 많이 하기(ArrayList)
 

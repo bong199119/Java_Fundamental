@@ -19,13 +19,13 @@ public class SalgradeDemo {
 		/*boolean isSuccess = s.delete(2);
 		System.out.println(isSuccess);*/
 		
-		/*ArrayList<SalgradeDto> list = s.select();
+/*		ArrayList<SalgradeDto> list = s.select();
 		
 		for (SalgradeDto sto : list) {
-			System.out.printf("%d, %s, %s, %n", sto.getGrade(), sto.getLo(), sto.getHi());
-		}*/
+			System.out.printf("%d, %d, %d, %n", sto.getGrade(), sto.getLo(), sto.getHi());
+		}
 		
-		
+		*/
 		SalgradeDto sto = s.select(5);
 		if (sto == null) {
 			System.out.println("데이터가 존재하지 않습니다.");

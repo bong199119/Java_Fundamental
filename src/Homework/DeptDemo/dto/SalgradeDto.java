@@ -29,16 +29,4 @@ public class SalgradeDto {
 		this.hi = hi;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

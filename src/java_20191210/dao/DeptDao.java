@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java_20191210.dto.DeptDto;
 
 public class DeptDao {
-	// 1 singleton pattern
+
 	static {
 		try {
 			// 1. org.mariadb.jdbc.Driver 클래스를 메모리에 로딩한다.
@@ -22,13 +22,15 @@ public class DeptDao {
 		}
 
 	}
-
+	// 1 singleton pattern
+	//single변수는 static 메서드에서 사용해야 하기 때문에 static 변수로 설정해야 한다.
 	private static DeptDao single;
-
+	//외부에서 객체를 생성할 수 없다.
 	private DeptDao() {
 
 	}
-
+	//외부에서 DeptDao객체를 생성하기 위해서는 getInstance()메서드를 이용해야 한다.
+	//따라서 이 메서드에서는 DeptDao 객체를 하나만 생성할 수 있게 코딩해야 한다.(Singleton)
 	public static DeptDao getInstance() {
 		if (single == null) {
 			single = new DeptDao();
