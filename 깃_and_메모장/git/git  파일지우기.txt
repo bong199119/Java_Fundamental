@@ -1,0 +1,28 @@
+acorn@acorn-PC MINGW64 /c/dev/workspace/Java_Fundamental (master)
+$ git rm --cached .project
+rm '.project'
+
+acorn@acorn-PC MINGW64 /c/dev/workspace/Java_Fundamental (master)
+$ git commit -m "20191120-v2"
+[master 5249b3d] 20191120-v2
+ 1 file changed, 17 deletions(-)
+ delete mode 100644 .project
+
+acorn@acorn-PC MINGW64 /c/dev/workspace/Java_Fundamental (master)
+$ git push origin +master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 262 bytes | 262.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/bong199119/Java_Fundamental
+   224501b..5249b3d  master -> master
+
+acorn@acorn-PC MINGW64 /c/dev/workspace/Java_Fundamental (master)
+$  git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+acorn@acorn-PC MINGW64 /c/dev/workspace/Java_Fundamental (master)
+$
