@@ -917,6 +917,27 @@ LIMIT 0,5
 
 
 
+<h1>H1</h1> 
+    <H2>H2</H2>   -> 블락요소 (자동개행됨)
+    <h3>h3</h3>
+    <h4>h3</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    <b>bold</b><br><br>  -> 인라인요소 (옆으로 계속 붙어서 출력됨! -> br써줘서 개행가능)
+    <strong>strong</strong><br><br>
+    <i>italic</i><br><br>
+    <em>emphasis</em><br><br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
