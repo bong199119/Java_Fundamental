@@ -931,10 +931,169 @@ LIMIT 0,5
 
 
 
+url의 구성요소
+phppqr
+
+protocol
+host
+port
+path
+query
+reference
 
 
 
 
+
+
+아래 3줄은 네이버가 css 외부링크 걸어논것!
+
+<link rel="stylesheet" type="text/css" href="https://pm.pstatic.net/css/main_v191210.css"/> 
+<link rel="stylesheet" type="text/css" href="https://pm.pstatic.net/css/webfont_v170623.css"/>
+<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/sstatic/search/pc/css/api_atcmp_190612.css"/>
+
+
+
+
+
+
+
+
+웹에서 이동방식 2가지
+하이퍼링크 or form
+
+하이퍼링크 -> 모두 get방식
+로그인같은거 -> 포스트(form)
+
+get방식의 특징 -> url뒤에 파라미터가 있음
+get방식은 id랑 password등 다보임 그래서 post방식을 쓴다.
+
+
+
+
+
+
+시험
+
+
+1. 식별자
+1~4번까지 내놓고 다음중 식별자가 아닌것은?
+
+
+
+@ 규칙 
+
+첫글자는 문자로 시작 $,_허용하지만 특수문자는 불가
+예약어 식별자 불가
+
+@ 자료형이나 리터럴이 오는지 살펴보자!!! 
+
+
+
+
+2. 자료형 문제
+정수형자료형이 아닌것은?
+
+
+@ 정수형 자료형
+
+Numeric -> byte, short, int, long 
+Floating -> float, double
+
+둘다 정수형 자료형임 6개 다외우기
+
+
+3. 손코딩
+if,else를 주고 switch case문으로 바꾸는문제
+
+20191119 - IFDemo.java 확인
+20191120 - SwitchDemo.java 확인
+
+
+4. for문을 주고 while문으로 바꾸는문제
+2중 for문임
+
+
+구구단 for문을  while 문으로 바꾸기 -> 이거 나올거같음 해보기
+
+
+5. 클래스의 구성요소가 아닌것은?
+
+@클래스의 구성요소
+멤버변수
+생성자
+메서드
+
+
+
+6. 접근한정자에 대한 문제
+
+멤버변수의 접근 한정자 -> public, private, protected,default -> 표외우기(java3pdf의 중간단)
+메서드의 접근 한정자 -> 멤버변수에 사용된 접근한정자와 종류, 쓰임이 모두 같음
+
+
+
+7. 생성자에 대한 문제
+클래스2개를 해놓고 왜 에러가 나냐?
+
+생성자 설명 pdf3하단부
+
+
+8. 손코딩
+배열을 출력하는 문제
+
+@ 20191121 - ArrayDemo
+
+9. final의 3가지 용법
+
+10. 클래스하고 인터페이스를 어떻게 상속을 받는가?
+
+11. object클래스
+오버라이딩 하면 뭐도 같이 오버라이딩 해야하는가
+
+12. 코딩을 주고 에러가 나는데 에러가 안나게 수정하시오!
+wrapperclass에 대한 문제
+
+13. 스트링버퍼문제
+문자열비교했을때 뭐가 나오는지?
+
+14. 코드주고 컬랙션에서 어레이리스트에 담아놓고
+for문으로 쭉 출력하면 실행결과는? 
+
+
+15. 자바에서 예외처리는 어떻게 하는가?
+try, catch로 묶고 예외시 발생되는 메시지를 적어준다
+또는 throw를 통해 이전단계에서 한번에 에러메시지를 받을수도 있다.
+
+16. thread 실행시키는 방법
+
+@ extends Thread에 대해서만 나온다고 함
+이거 달달외우기 
+
+
+
+17. string 클래스의 substring 결과는 어떻게 나오나
+
+18. io문제 입력장치, 출력장치
+키보드로 입력받고, 모니터로 출력하는것 주로
+
+19.polymopism을 쓰시오 여러가지 최대한 다쓰기
+
+오버로딩( pdf3 하단부)
+
+
+20. oop에 대해 서술하시오
+동그라미 6개그림 설명하면서 간단하게 서술
+
+@ pdf3에 설명있음
+@ java3oop에 object, abstraction 있음
+
+객체 - object  
+추상화 - abstraction
+클래스 - class
+은닉화 - encapsulation
+다형성 - polymorphism
+상속 - inheritance
 
 
 
