@@ -15,7 +15,7 @@ public class ListDemo {
 			System.out.println(temp);
 		}
 		
-		//모두 삭제 -> list.remove(int index) 사용해서
+		/*//모두 삭제 -> list.remove(int index) 사용해서
 		for(int j =0; j < list.size(); j++){
 			list.remove(j--);			
 		}
@@ -26,7 +26,7 @@ public class ListDemo {
 		for(Product temp: list){
 			System.out.println(temp);
 		}
-		
+		*/
 		
 		
 	}

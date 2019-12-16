@@ -8,14 +8,15 @@ public class WrapperDemo {
 		//할 수없었기 때문에 primitive data type을 객체화 할 수 있는 wrapper
 		//class로 변환하여 저장 해야 한다.
 		ArrayList list = new ArrayList();
-		list.add(new Integer(1));
+		list.add(9);
 		list.add(new Integer(2));
 		
 		Integer i1 = (Integer)list.get(0);
 		Integer i2 = (Integer)list.get(1);
 		
-		int a = i1.intValue() + i2.intValue();	
-	
+		int a = i1.intValue() + i2.intValue();
+
+		System.out.println(a);
 		//java 5.0 이후
 		
 		ArrayList<Integer> list1 = new ArrayList<Integer>();

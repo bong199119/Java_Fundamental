@@ -58,10 +58,6 @@ https://post.naver.com/viewer/postView.nhn?volumeNo=26872820
 **리눅스 해야됨**
 
 
-깃 많이 쓸거임
-세팅하는거 잘 이해햐야됨
-
-
 
 빅데이터분석 자격증있음
 
@@ -542,10 +538,9 @@ import java.util.*;
 컬랙션 -> 자료구조랑같음
 
 
-
+String str1 = String.valueOf(10) ->  숫자를 문자로
 
 **** int a =  integer.parseint("10");
-
 
 java 5.0 이상에서는
 -> Integer i1 = 10; 가능
@@ -957,8 +952,6 @@ reference
 
 
 
-
-
 웹에서 이동방식 2가지
 하이퍼링크 or form
 
@@ -969,6 +962,9 @@ get방식의 특징 -> url뒤에 파라미터가 있음
 get방식은 id랑 password등 다보임 그래서 post방식을 쓴다.
 
 
+
+
+String.valueOf(10)
 
 
 
@@ -1051,11 +1047,15 @@ if,else를 주고 switch case문으로 바꾸는문제
 11. object클래스
 오버라이딩 하면 뭐도 같이 오버라이딩 해야하는가
 
+hashCode();
+
 12. 코딩을 주고 에러가 나는데 에러가 안나게 수정하시오!
 wrapperclass에 대한 문제
 
 13. 스트링버퍼문제
 문자열비교했을때 뭐가 나오는지?
+
+@ StringBuffer 클래스는 Object의 equals()메서드를 overriding 하지 않았기 때문에 equals를 사용하려면 false가 반환딘다.
 
 14. 코드주고 컬랙션에서 어레이리스트에 담아놓고
 for문으로 쭉 출력하면 실행결과는? 
@@ -1063,7 +1063,7 @@ for문으로 쭉 출력하면 실행결과는?
 
 15. 자바에서 예외처리는 어떻게 하는가?
 try, catch로 묶고 예외시 발생되는 메시지를 적어준다
-또는 throw를 통해 이전단계에서 한번에 에러메시지를 받을수도 있다.
+또는 throws를 통해 IOException같은 예외처리로 보내줄수 있다.
 
 16. thread 실행시키는 방법
 
