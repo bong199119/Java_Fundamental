@@ -71,6 +71,8 @@ id는 유일하기때문에 0아니면 1
 
 
 
+$('li:gt(2)') index가 2보다 큰것
+$('li:not(:last)') 마지막이 아닌것 다 선택
 
 
 
@@ -78,12 +80,29 @@ id는 유일하기때문에 0아니면 1
 
 
 
+step03_traversing.html
+
+.eq(i) i번째 선택
+.each() 매우 중요함
+
+자바스크립트는 노드를 찾아가기가 너무힘듬
+jquery는 간단하게 찾아갈 수 있고 매우 많은 traversing메서드가 존재한다.
 
 
 
 
 
 
+백엔드 개발자 -> jquery만 잘하면 됨!!!!
+
+
+servelet 알아야 하는이유는 jsp가 결국은 servelet으로 바뀌기때문에!!!
+jsp  -> html코드에 자바코드를 삽입하면 -> servelet으로 자동으로 바뀜
+
+
+
+
+servlet 그림 잘알아두기!!!! 매우 중요!
 
 
 

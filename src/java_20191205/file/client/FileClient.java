@@ -20,7 +20,7 @@ public class FileClient {
 	private void run() {
 		try {
 			Socket socket = new Socket(ip, port);
-			String fileName = "scott.sql";
+			String fileName = "eclipse-inst-win64.exe";
 			BufferedWriter bw = 
 					new BufferedWriter(
 							new OutputStreamWriter(socket.getOutputStream()));
