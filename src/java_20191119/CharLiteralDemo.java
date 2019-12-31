@@ -7,10 +7,12 @@ public class CharLiteralDemo {
 		char c1 = '\uC12C';
 		char c2 = '\uBD09';
 		char c3 = '\uC11D';
+		String a = "dk";
 		
 		System.out.println(c1);
 		System.out.println(c2);
 		System.out.println(c3);
+		System.out.println(a);
 		
 		
 		//2. 아스키코드 표현 = > '00'
