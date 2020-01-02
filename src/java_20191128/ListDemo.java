@@ -9,7 +9,7 @@ public class ListDemo {
 		list.add(new Product(1, "terra", 2500));
 		list.add(new Product(2, "신라면", 2000));
 		list.add(new Product(3, "서울우유", 3000));
-
+		
 		for(int i = 0 ; i < list.size(); i++){
 			Product temp = list.get(i);
 			System.out.println(temp);
