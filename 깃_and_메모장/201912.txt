@@ -1139,6 +1139,20 @@ kwonminkyu@hanmail.net
 
 
 
+xml/html 파싱할때 beautifulsoup
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @@@ parse, value of 등등 함수 찾아서 정리
 

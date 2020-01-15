@@ -2,3 +2,36 @@
 비쥬얼 코드  - dev/www
 Java_Fundamental - C:\Users\acorn\eclipse-workspace\Java_Fundamental
 Web_Fundamental - C:\Users\acorn\eclipse-workspace\Web_Fundamental
+바탕화면 -  C:\Users\acorn\Desktop
+
+//1. 드라이브 로드
+//2. 데이터베이스에 연결시도
+//3. sql보내기 위해서 preparedstatement로 객체생성
+//4. 바인딩변수 설정
+//5. sql문 보내기
+
+
+
+영화api 키 : 3406540b69fcf5274b1dcf815e87f0ca
+
+
+
+
+올리브 경로 C:\Users\acorn\jupyter\sampledata_20200102\sampledata
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
