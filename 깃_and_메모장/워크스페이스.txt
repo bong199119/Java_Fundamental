@@ -13,14 +13,17 @@ Web_Fundamental - C:\Users\acorn\eclipse-workspace\Web_Fundamental
 
 
 영화api 키 : 3406540b69fcf5274b1dcf815e87f0ca
+라이엇api 키 : RGAPI-4899ec34-c286-4b2e-8376-4ef92877d490
 
-
+하온부 정보가져오는 URL  -> https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/%20hide%20on%20bush?api_key=RGAPI-4899ec34-c286-4b2e-8376-4ef92877d490
 
 
 올리브 경로 C:\Users\acorn\jupyter\sampledata_20200102\sampledata
 
 
-
+개인별 수정할 데이터 -> 무엇을 하려하는지
+어디서
+무슨값을
 
 
 
