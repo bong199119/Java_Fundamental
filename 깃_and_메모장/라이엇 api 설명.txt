@@ -1,0 +1,17 @@
+챔피언 마스터리 -> champion-masteries -> {encryptedsummonerid}
+
+chestGranted	boolean	Is chest granted for this champion or not in current season.
+championLevel	int	Champion level for specified player and champion combination.
+championPoints	int	Total number of champion points for this player and champion combination - they are used to determine championLevel.
+championId	long	Champion ID for this entry.
+championPointsUntilNextLevel	long	Number of points needed to achieve next level. Zero if player reached maximum champion level for this champion.
+lastPlayTime	long	Last time this champion was played by this player - in Unix milliseconds time format.
+tokensEarned	int	The token earned for this champion to levelup.
+championPointsSinceLastLevel	long	Number of points earned since current level has been achieved.
+summonerId	string	Summoner ID for this entry. (Encrypted)
+
+
+
+챔피언 마스터리 -> scores -> {encryptedsummonerid}
+
+score
