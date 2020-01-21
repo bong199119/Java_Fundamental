@@ -1,6 +1,15 @@
 1. 구현해볼것
 
+1) 데이터 분석
 삐빅 현지인 입니다! -> 판수, 챔피언숙련도, 시즌별 티어 정리하고 상관관계분석해서 (현지인, 대리 판별해서 보여주기)
+브실골플다 -> 사람수 추세 그래프로 나타내기
+
+2) 시간을 두고 분석하기 
+
+
+
+3)
+
 
 2. 생각해야하는것
 
@@ -16,6 +25,8 @@
 
 3. api 상세정보
 
+
+(1) 챔피언 마스터리
 챔피언 마스터리 -> champion-masteries -> {encryptedsummonerid}
 
 chestGranted	boolean	Is chest granted for this champion or not in current season.
@@ -33,3 +44,76 @@ summonerId	string	Summoner ID for this entry. (Encrypted)
 챔피언 마스터리 -> scores -> {encryptedsummonerid}
 
 score
+
+
+
+(2) CHAMPION-V3
+
+{
+    "freeChampionIds": [
+        4,
+        6,
+        7,
+        26,
+        36,
+        51,
+        57,
+        63,
+        89,
+        107,
+        113,
+        126,
+        154,
+        202,
+        245
+    ],
+    "freeChampionIdsForNewPlayers": [
+        18,
+        81,
+        92,
+        141,
+        37,
+        238,
+        19,
+        45,
+        25,
+        64
+    ],
+    "maxNewPlayerLevel": 10
+}
+
+
+
+(3) EXP-V4 브실골플다마첼 유저를 페이지별로 모아둔곳 
+
+(4) league-v4
+
+/lol/league/v4/challengerleagues/by-queue/{queue} -> 챌린저 모듬
+/lol/league/v4/entries/by-summoner/{encryptedSummonerId} -> 소환사 정보
+/lol/league/v4/entries/{queue}/{tier}/{division} -> 엔트리(3이랑 똑같음)
+/lol/league/v4/grandmasterleagues/by-queue/{queue} -> 그랜드마스터 모듬
+/lol/league/v4/leagues/{leagueId} -> 리그( ex) 말자하의 군단 )에 속해있는 유저모음
+/lol/league/v4/masterleagues/by-queue/{queue} -> 마스터
+
+
+
+(5) 지역정보(korea)
+/lol/status/v3/shard-data -> 한국 롤 클라이언트?정보
+
+(6) 
+
+
+
+
+
+
+
+필요한것 
+
+1. encryptedSummonerId
+2. encryptedAccountId
+3. encryptedPUUID
+4. 
+
+
+https://kr.api.riotgames.com/lol/league-exp/v4/entries/RANKED_SOLO_5x5/IRON/II?page=1
