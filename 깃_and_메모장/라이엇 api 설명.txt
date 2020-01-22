@@ -101,6 +101,9 @@ score
 /lol/status/v3/shard-data -> 한국 롤 클라이언트?정보
 
 (6) 
+(7)
+(8)
+
 
 
 
@@ -113,7 +116,22 @@ score
 1. encryptedSummonerId
 2. encryptedAccountId
 3. encryptedPUUID
-4. 
+4. matchId
+5. tournamentCode
+6. championId
+
+league-exp-v4 
+-> summonerId, leagueId
+
+league -v4 
+-> leagueId
+
+match -v4  /lol/match/v4/matches/{matchId}
+-> gameId, queueId, seasonId, platformId, mapId, participantId, currentPlatformId, currentAccountId, summonerId, spell1Id
+championId, masteryId
+
+
+
 
 
 https://kr.api.riotgames.com/lol/league-exp/v4/entries/RANKED_SOLO_5x5/IRON/II?page=1
